@@ -48,15 +48,19 @@
         font-size: 16px;
     }
  }
- @media(max-width:400px){
+ @media(max-width:500px){
     .hero{
-        min-height: 20vh;
-        background: red;
+        min-height: 80vh;
+        background: rgb(85, 183, 148);
+        margin-bottom: 5px;
     }
-        .hero-text p, h1{
-        color: rgb(68, 4, 163);
+    .hero-text{
+    max-width: 350px;
+    text-align: center;    
     }
-    .hero-text p{
-        font-size: 100px;
+    .hero-text h1{
+        font-size:25px;
+        max-width: 300px;
+        margin: auto;
     }
- }
+}

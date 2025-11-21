@@ -73,6 +73,11 @@ nav ul li{
     cursor: pointer;
 }
 .hide-menu{
-    right: -190px;
+    right: -200px;
 }
+}
+@media(max-width:500px){
+    .logo{
+        margin-left: 15px;
+    }
 }

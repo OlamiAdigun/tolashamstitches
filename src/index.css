@@ -52,6 +52,13 @@ a {
   }
 }
 
+@media(max-width:500px){
+  .container{
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+}
+
 
 /* :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;

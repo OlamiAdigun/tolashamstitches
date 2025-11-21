@@ -14,3 +14,12 @@
     width: 23%;
     border-radius: 8px;
 }
+@media(max-width:500px){
+    .gallery{
+    flex-direction: column;
+}
+    .gallery img{
+        width: 85%;
+        margin: 10px auto;
+    }
+}
