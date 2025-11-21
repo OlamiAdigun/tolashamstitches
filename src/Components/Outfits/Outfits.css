@@ -1,0 +1,54 @@
+.outfits{
+    width: 90%;
+    margin: 25px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.outfits img{
+    width: 90%;
+    border-radius: 5px;
+    display: block;
+}
+.outfit{
+    flex-basis: 31%;
+    position: relative;
+}
+
+.caption{
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(133, 227, 213, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    cursor: pointer;
+    opacity:0; 
+    padding-left: 70%;
+    transition: 2s;
+}
+.outfit:hover .caption{
+    opacity: 1;
+    padding-left: 0;
+}
+
+@media(max-width:650px){
+    .outfits{
+        flex-direction: column;
+    }
+    .outfit{
+        flex-basis: 100%;
+        margin: 10px;
+    }
+}
+
+/* .caption img{
+    width: 60px;
+    margin-bottom: 10px;
+} */

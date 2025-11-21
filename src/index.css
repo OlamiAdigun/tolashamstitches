@@ -1,0 +1,77 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body{
+  background: #f5f5f5;
+}
+
+a {
+  font-weight: 500;
+  color: inherit;
+  text-decoration: inherit;
+  cursor: pointer;
+} 
+.container{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.btn{
+  background: #fff;
+  color: #212121;
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn.dark-btn{
+  background: teal;
+  color: white;
+}
+
+@media(max-width:1000px){
+    .container{
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+}
+
+@media(max-width:900px){
+  .btn{
+    padding: 10px 15px;
+  }
+}
+
+
+/* :root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+} */
+
+
