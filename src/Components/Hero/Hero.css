@@ -53,4 +53,10 @@
         min-height: 20vh;
         background: red;
     }
+        .hero-text p, h1{
+        color: rgb(68, 4, 163);
+    }
+    .hero-text p{
+        font-size: 100px;
+    }
  }
