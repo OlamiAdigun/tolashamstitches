@@ -16,12 +16,16 @@ const App = () => {
       <div className='container'>
         <Title SubTitle= 'elegance with contemporary' Title='Our Best Fashion Show'/>
         <Outfits/>
+        <hr />
         <Title Title='About Us'/>
         <About/>
+         <hr />
         <Title SubTitle= 'Gallery' Title='Previous Works'/>
         <Gallery/>
+         <hr />
         <Title SubTitle='Gent In Touch With Us' Title='Contact Us'/>
         <Contact/>
+         <hr />
       </div>
        <Footer/>
     </div>
