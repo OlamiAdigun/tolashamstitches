@@ -3,7 +3,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-top: 1px solid teal;
+    /* border-top: 1px solid teal; */
     padding: 15px 0;
     margin-left: 30px;
     margin-right: 30px;

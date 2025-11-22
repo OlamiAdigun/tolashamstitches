@@ -49,9 +49,9 @@ nav ul li{
     nav ul{
         position: fixed;
         top: 0;
-        right: 5px;
+        right: 0px;
         bottom: 0;
-        background: teal;
+        background: rgba(5, 176, 127, 0.774);
         z-index: -1;
         width: 200px;
         padding-top: 70px;

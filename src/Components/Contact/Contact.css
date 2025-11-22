@@ -85,7 +85,7 @@
 }
 @media(max-width:490px){
     .contact-col h3{
-        font-size: 12px;
+        font-size: 16px;
         font-weight: 700;
     }
     .contact-col h3 img{
@@ -94,4 +94,11 @@
     .contact-col p{
         font-size: 12px;
     }
+       .contact{
+        margin-top: 10px;
+       } 
+    .contact-col p,.contact-col ul li{
+    font-size: 14px;
+    line-height: 1.3;
+}   
 }
