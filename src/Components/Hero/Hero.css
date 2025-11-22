@@ -51,7 +51,6 @@
  @media(max-width:500px){
     .hero{
         min-height: 80vh;
-        background: rgb(85, 183, 148);
         margin-bottom: 5px;
     }
     .hero-text{
